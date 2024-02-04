@@ -1,0 +1,7 @@
+---
+applications:
+- name: HELLOWA
+  host: HELLOWA
+  buildpack: nodejs_buildpack
+  emory: 128M
+  command: node server
